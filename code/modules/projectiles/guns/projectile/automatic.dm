@@ -13,7 +13,7 @@
 	fire_delay = 0
 
 /obj/item/weapon/gun/projectile/automatic/mini_uzi
-	name = "\improper Handheld Uzi"
+	name = "\improper Handheld SMG"
 	desc = "The UZI is a lightweight, fast firing gun. For when you want someone dead. Uses .45 rounds."
 	icon_state = "mini-uzi"
 	w_class = 3
