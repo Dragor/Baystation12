@@ -44,12 +44,12 @@
 
 /obj/item/weapon/gun/projectile/sec/wood
 	desc = "The NT Mk58, a Nanotrasen designed sidearm, this one has a sweet wooden grip. Uses .45 rounds."
-	name = "\improper .45 Pistol"
+	name = "\improper custom .45 Pistol"
 	icon_state = "secgundark"
 
 /obj/item/weapon/gun/projectile/silenced
 	name = "silenced pistol"
-	desc = "The Lumoco Arms P3 Whisper. Small, quiet,  easily concealable. Uses .45 rounds."
+	desc = "Small, quiet,  easily concealable. Uses .45 rounds."
 	icon_state = "silenced_pistol"
 	w_class = 3
 	caliber = ".45"
@@ -104,8 +104,8 @@
 		icon_state = "gyropistol"
 
 /obj/item/weapon/gun/projectile/pistol
-	name = "\improper Stechtkin pistol"
-	desc = "A small, easily concealable gun. Uses 9mm rounds."
+	name = "\improper Holdout pistol"
+	desc = "Lumoco Arms P3 Whisper. A small, easily concealable gun. Uses 9mm rounds."
 	icon_state = "pistol"
 	item_state = null
 	w_class = 2
@@ -116,8 +116,8 @@
 	magazine_type = /obj/item/ammo_magazine/mc9mm
 
 /obj/item/weapon/gun/projectile/pistol/flash
-	name = "\improper Stechtkin signal pistol"
-	desc = "A small, easily concealable gun. Uses 9mm rounds."
+	name = "\improper Holdout signal pistol"
+	desc = "Lumoco Arms P3 Whisper.A small, easily concealable gun. Uses 9mm rounds."
 	magazine_type = /obj/item/ammo_magazine/mc9mm/flash
 
 /obj/item/weapon/gun/projectile/pistol/attack_hand(mob/user as mob)
